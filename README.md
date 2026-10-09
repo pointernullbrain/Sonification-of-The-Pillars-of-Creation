@@ -1,8 +1,8 @@
-# Sonification of the Pillars of Creation
+# 🌌 Sonification of the Pillars of Creation
 
 A small R-based data sonification and signal-analysis project inspired by the Pillars of Creation astronomical region. The project reads optical and X-ray audio files, applies signal-processing techniques, and visualizes their waveform, frequency spectrum, and spectrogram characteristics.
 
-## Project goal
+## 🎯 Project goal
 
 This repository explores how astronomical imagery can be translated into sound and analyzed as audio signals. The script focuses on two layered audio recordings:
 
@@ -18,13 +18,13 @@ It then uses a range of signal-processing tools to:
 - identify dominant frequency peaks
 - create spectrograms and dynamic spectra
 
-## Repository contents
+## 📁 Repository contents
 
 - `PillarsOfCreation_AudioAnalysis.R` — main analysis script
 - `report.docx` — project report document
 - `README.md` — project overview and usage notes
 
-## Requirements
+## 🧰 Requirements
 
 This project is written in R and depends on the following packages:
 
@@ -37,7 +37,7 @@ You will also need the audio files used in the analysis:
 - `m16_optical.wav`
 - `m16_xray.wav`
 
-## Usage
+## ▶️ Usage
 
 1. Open the project in RStudio or any R environment.
 2. Ensure the WAV files are available in the working directory or adjust the file paths in the script.
@@ -57,7 +57,7 @@ The script will:
 - generate FFT spectra and dominant frequency peaks
 - visualize spectrograms for each layer
 
-## Important note
+## ⚠️ Important note
 
 The script currently contains a hard-coded Windows file path in this line:
 
@@ -67,7 +67,7 @@ setwd("C:\Users\adria\Desktop\Aaron DS master folder\STQD6114 Unstructured Data 
 
 Before running it on another machine, replace this with the path to your local audio folder or change the script to use relative paths.
 
-## Example workflow
+## 🔊 Example workflow
 
 ```r
 library(tuneR)
@@ -86,10 +86,10 @@ spectro(optical_small, wl = 512, flim = c(0,2.5), wn = "hanning")
 spectro(xray, wl = 512, flim = c(0,2.5), wn = "hanning")
 ```
 
-## Summary
+## 🧠 Summary
 
 This project combines digital signal processing, audio analysis, and astronomical inspiration to create a sonified interpretation of the Pillars of Creation. It is a compact, exploratory workflow for generating meaningful audio-based visualizations from data.
 
-## License
+## 📜 License
 
 This repository does not currently specify a license. If you plan to share or reuse it publicly, consider adding an open-source license such as MIT or GPL.
