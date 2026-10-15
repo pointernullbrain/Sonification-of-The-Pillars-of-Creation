@@ -2,6 +2,14 @@
 
 A small R-based data sonification and signal-analysis project inspired by the Pillars of Creation astronomical region. The project reads optical and X-ray audio files, applies signal-processing techniques, and translates their structure into a sonified representation of a deep-space object.
 
+<p align="center">
+  <img width="1200" alt="Pillars of Creation" src="https://cdn.spacetelescope.org/archives/images/screen/heic1501a.jpg" />
+</p>
+
+<p align="center">
+  <em>The Pillars of Creation, a star-forming region in the Eagle Nebula captured by the Hubble Space Telescope.</em>
+</p>
+
 ## 🎯 Project goal
 
 This repository explores how astronomical imagery can be translated into sound and analyzed as audio signals. The script focuses on two layered audio recordings:
