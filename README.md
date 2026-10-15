@@ -91,9 +91,22 @@ spectro(xray, wl = 512, flim = c(0,2.5), wn = "hanning")
 The workflow produces a set of exploratory signal-analysis outputs that connect the astronomical data to audible patterns:
 
 - waveform oscillograms for the optical and X-ray layers
+  
+  <img width="1536" height="802" alt="oscillo4" src="https://github.com/user-attachments/assets/9362ab84-3a55-4b51-ba25-5c0fb7cd0640" />
+
 - FFT magnitude spectra highlighting dominant frequencies and spectral structure
+
+  <img width="1536" height="802" alt="fft" src="https://github.com/user-attachments/assets/956ba5ce-5f13-4c50-9a8c-b304902f88a1" />
+
 - spectrogram visualizations showing how signal energy changes over time
-- comparative summaries of duration, timing, and frequency content between the two recordings
+
+  <img width="649" height="441" alt="spectro_optical" src="https://github.com/user-attachments/assets/4670baca-cfae-4568-a55f-84db02efa013" />
+
+  *Optical layer*
+
+  <img width="649" height="441" alt="spectro_xray" src="https://github.com/user-attachments/assets/15ff8d9b-0822-46bc-9be2-b0c403e4d5cf" />
+
+  *X-ray layer*
 
 These results provide a qualitative and quantitative basis for interpreting the data as a sonified representation of the Pillars of Creation, with the optical and X-ray signals revealing distinct acoustic characteristics.
 
