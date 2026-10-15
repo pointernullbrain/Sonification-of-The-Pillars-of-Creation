@@ -3,7 +3,7 @@
 A small R-based data sonification and signal-analysis project inspired by the Pillars of Creation astronomical region. The project reads optical and X-ray audio files, applies signal-processing techniques, and translates their structure into a sonified representation of a deep-space object.
 
 <p align="center">
-  <img width="1200" alt="Pillars of Creation" src="https://cdn.spacetelescope.org/archives/images/screen/heic1501a.jpg" />
+  <img width="1041" height="1086" alt="pillars_of_creation" src="https://github.com/user-attachments/assets/9eafaeb9-f288-427e-9e12-b88f1faf3b8a" />
 </p>
 
 <p align="center">
