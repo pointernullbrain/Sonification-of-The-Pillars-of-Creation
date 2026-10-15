@@ -7,7 +7,7 @@ A small R-based data sonification and signal-analysis project inspired by the Pi
 </p>
 
 <p align="center">
-  <em>The Pillars of Creation, a star-forming region in the Eagle Nebula captured by the Hubble Space Telescope.</em>
+  <em>The Pillars of Creation, a star-forming region in the Eagle Nebula captured by the Hubble Space Telescope. Credit: NASA, ESA/Hubble and the Hubble Heritage Team</em>
 </p>
 
 ## 🎯 Project goal
