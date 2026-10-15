@@ -1,6 +1,6 @@
 # 🌌 Sonification of the Pillars of Creation
 
-A small R-based data sonification and signal-analysis project inspired by the Pillars of Creation astronomical region. The project reads optical and X-ray audio files, applies signal-processing techniques, and visualizes their waveform, frequency spectrum, and spectrogram characteristics.
+A small R-based data sonification and signal-analysis project inspired by the Pillars of Creation astronomical region. The project reads optical and X-ray audio files, applies signal-processing techniques, and transforms astronomical data into exploratory audio visualizations.
 
 ## 🎯 Project goal
 
@@ -86,9 +86,20 @@ spectro(optical_small, wl = 512, flim = c(0,2.5), wn = "hanning")
 spectro(xray, wl = 512, flim = c(0,2.5), wn = "hanning")
 ```
 
+## 📊 Results
+
+The workflow produces a set of exploratory signal-analysis outputs that connect the astronomical data to audible patterns:
+
+- waveform oscillograms for the optical and X-ray layers
+- FFT magnitude spectra highlighting dominant frequencies and spectral structure
+- spectrogram visualizations showing how signal energy changes over time
+- comparative summaries of duration, timing, and frequency content between the two recordings
+
+These results provide a qualitative and quantitative basis for interpreting the data as a sonified representation of the Pillars of Creation, with the optical and X-ray signals revealing distinct acoustic characteristics.
+
 ## 🧠 Summary
 
-This project combines digital signal processing, audio analysis, and astronomical inspiration to create a sonified interpretation of the Pillars of Creation. It is a compact, exploratory workflow for generating meaningful audio-based visualizations from data.
+This project combines digital signal processing, audio analysis, and astronomical inspiration to create a sonified interpretation of the Pillars of Creation. It is a compact, exploratory workflow designed to translate spatially rich scientific imagery into time-varying audio features.
 
 ## 📜 License
 
